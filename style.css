@@ -360,6 +360,9 @@ span{
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
     width: 40%;
 }
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+    width: 65%;
+}
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
     width: 90%;
@@ -372,6 +375,9 @@ span{
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
     width: 40%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span{
+    width: 60%;
 }
 .contact form{
     max-width: 70rem;

@@ -3,9 +3,12 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navBar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x')e
-}
+/*menuIcon.onclick = () => {
+    menuIcon.classList.toggle('fa-solid fa-xmark');
+}*/
+    function menuIconChange(){
+        menuIcon.classList.toggle('fa-solid fa-xmark');
+    }
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
